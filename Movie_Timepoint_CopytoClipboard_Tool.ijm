@@ -30,7 +30,7 @@ showMessage("Institute for Molecular Biosciences ImageJ Script", "<html>
     +"<H2><font size=3>Created by Nicholas Condon</H2>"
     +"<p1><font size=2> contact n.condon@uq.edu.au \n </p1>" 
     +"<P4><font size=2> Available for use/modification/sharing under the "+"<p4><a href=https://opensource.org/licenses/MIT/>MIT License</a><h4> </P4>"
-    +"<P4><font size=2> For more detailed instructions see "+"<p4><a href=https://www.protocols.io/>Protocols.io</a><h4> </P4>"
+    +"<P4><font size=2> For more detailed instructions see "+"<p4><a href=https://www.protocols.io/edit/movie-timepoint-copytoclipboard-tool-chutt6wn>Protocols.io</a><h4> </P4>"
     +"<h3>   <h3>"    
     +"<p1><font size=3  i>"+description+"</p1>
     +"<h1><font size=2> </h1>"  
