@@ -1,7 +1,7 @@
 # Description
 This script is for running headless (faster/hpc) batch Z-projection processing of image files. It also can concatinate the individual Z-stacks into a single uncompressed avi file.
 
-#Global Variables
+# Global Variables
 input = string for file path to input images (note a new directory will be made in this directory called "Output"
 suffix = string for the file suffix (e.g. ".tif", ".czi", ".nd2", etc)
 projectiontype = "Max Intensity", "Min Intensity", "Average Intensity", "Sum Slices"
