@@ -1,0 +1,4 @@
+	for (r = 0; r <roiManager("count"); r++) {
+		roiManager("select", r);
+		roiManager("rename", "Cell_"+(r+1));
+	}
