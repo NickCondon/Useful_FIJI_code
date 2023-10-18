@@ -1,0 +1,19 @@
+print("\\Clear");
+print(IJ.getFullVersion);
+print(getVersion());
+setBatchMode(true);
+run("Dot Blot (7K)");
+makeRectangle(98, 84, 25, 51);
+run("Crop");
+rename("dot");
+getDimensions(width, height, channels, slices, frames);
+time1=getTime();
+run("Line Width...", "line=2");
+for (i=0 ;i<width; i++){
+	selectWindow("dot");
+	makeLine(i, 0, i, height);
+	run("Plot Profile");
+	Plot.getValues(xpoints, ypoints);
+	print(getTime()-time1);
+	close();
+	}
